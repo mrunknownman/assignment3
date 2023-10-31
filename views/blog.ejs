@@ -1,0 +1,26 @@
+<%- include("header") -%>
+
+<div class="container">
+    <h1 class="text-center">
+      Latest news about AITU Music Club
+    </h1>
+    <div class="posts">
+      <% for (let i=(posts.length - 1); i>=0; i--) { %>
+        <div class="card mt-3">
+          <div class="card-body" style="background-color: #EAFF43; color: black;">
+            <h5 class="card-title"><%= posts[i].title %></h5>
+            <p class="card-text">
+              <% if (posts[i].text.length > 100) { %>
+                <%= posts[i].text.substring(0, 100) %>
+              <% } else { %>
+                <%= posts[i].text %>
+              <% } %></p>
+            <a href='/posts/<%= posts[i].id %>' class="btn bg-dark text-white"><%= fill %></a>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+
+
+  <%- include("footer") -%>    
