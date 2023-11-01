@@ -9,13 +9,13 @@ app.set('view engine', 'ejs');
 
 const posts = [
     {
-        title: "Hello World!",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "How to Get the Most Out of Your University Music Club Experience",
+        text: "If you're a member of a university music club, there are a few things you can do to get the most out of your experience: \nGet involved. Don't be afraid to participate in club activities and rehearsals. The more involved you are, the more you'll learn and the more fun you'll have. \nTake advantage of the resources that are available. Most music clubs have access to practice rooms, instruments, and other resources that can help you improve your skills. \nNetwork with other club members. Get to know the other musicians and singers in your club. They can help you learn new things, collaborate on projects, and support each other. \nAttend concerts and recitals. This is a great way to see other musicians perform and learn new things. It's also a great way to support your fellow club members. \nHave fun! Music clubs are a great way to relax and have fun with friends. Enjoy the time you spend with your fellow musicians and singers.",
         id: 0
     },
     {
-        title: "DNENIEDijdie",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "5 Must-Attend Music Events on Campus This Semester",
+        text: "Looking for some great music to listen to on campus this semester? Here are five must-attend music events: \nFall Concert Series: The music department hosts a series of concerts throughout the fall semester. These concerts feature a variety of ensembles, including the band, choir, orchestra, and other",
         id: 1
     }
 ]
